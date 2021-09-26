@@ -16,8 +16,8 @@ interface IRoute {
 const routes: IRoute[] = [
   {
     path: '/',
-    name: 'Page',
-    component: Page,
+    name: 'Page1',
+    component: Page1,
     exact: true
   },
   {

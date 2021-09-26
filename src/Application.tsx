@@ -1,12 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, RouteComponentProps } from 'react-router-dom';
 import routes from './configs/routes';
+import { Header } from './styles/styledComponents';
+import Page from './pages/page/Page';
 
 const Application: React.FunctionComponent<{}> = props => {
-
     return (
         <div>
             <BrowserRouter>
+                <Header>Header</Header>
+                <Page />
                 <Switch>
                     {routes.map((route, index) => {
                         return (

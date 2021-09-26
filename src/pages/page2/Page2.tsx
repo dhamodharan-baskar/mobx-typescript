@@ -4,7 +4,7 @@ import React from 'react';
 const Page2: React.FC<{}> = props => {
     return (
         <div>
-           page
+           page2
         </div>
     );
 }
