@@ -12,16 +12,16 @@ const Page: React.FC<componentProps> = (props)=> {
     return (
         <Overview>
            <Tab onClick={() => changePage('Page1')}>
-             Page 1
+             Backlog
            </Tab>
            <Tab onClick={() => changePage('Page2')}>
-             Page 2
+             In progress
            </Tab>
            <Tab onClick={() => changePage('Page3')}>
-             Page 3
+             Dev completed
            </Tab>
            <Tab onClick={() => changePage('Page4')}>
-             Page 4
+             Deployed
            </Tab>
         </Overview>
     );
